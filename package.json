@@ -29,6 +29,7 @@
   "author": "Noel Delgado <pixelia.me@gmail.com> (https://pixelia.me/)",
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
     "eslint": "^7.0.0",
     "rollup": "^2.10.2",
     "tape": "^5.0.0"
