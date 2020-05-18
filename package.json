@@ -1,0 +1,5 @@
+{
+  "name": "mix-css-color",
+  "version": "1.0.0-beta.0",
+  "description": "Mix two colors together in variable proportion. Opacity is included in the calculations.",
+}
