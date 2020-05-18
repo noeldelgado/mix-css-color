@@ -30,6 +30,7 @@
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-commonjs": "^11.1.0",
     "eslint": "^7.0.0",
     "rollup": "^2.10.2",
     "tape": "^5.0.0"
