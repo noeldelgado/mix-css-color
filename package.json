@@ -37,6 +37,7 @@
     "eslint-config-rollup": "^0.1.0",
     "esm": "^3.2.25",
     "rollup": "^2.10.2",
+    "tap-spec": "^5.0.0",
     "tape": "^5.0.0"
   }
 }
