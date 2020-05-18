@@ -25,6 +25,7 @@
   "author": "Noel Delgado <pixelia.me@gmail.com> (https://pixelia.me/)",
   "license": "MIT",
   "devDependencies": {
-    "rollup": "^2.10.2"
+    "rollup": "^2.10.2",
+    "tape": "^5.0.0"
   }
 }
