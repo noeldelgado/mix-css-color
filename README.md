@@ -65,5 +65,9 @@ npm test      # run the tests
 npm run dev   # watch for changes and rebuild
 ```
 
+## Related
+- [parse-css-color](https://github.com/noeldelgado/parse-css-color) - Parse a CSS color string
+- [values.js](https://github.com/noeldelgado/values.js) - Get the tints and shades of a CSS color
+
 ## License
 MIT © [Noel Delgado](http://pixelia.me/)
