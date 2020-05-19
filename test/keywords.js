@@ -73,7 +73,8 @@ tape('keywords', (t) => {
       hsla: [4, 100, 57, 0.88],
       hex: '#ff3224',
       hexa: '#ff3224e0'
-    }
+    },
+    'tomato -> hsla(360, 100%, 50%, 0.8) : 40'
   );
 
   end();

@@ -4,9 +4,6 @@ import mix from '..';
 
 tape('hex', (t) => {
   const { deepEqual, equal, end } = t;
-  let a;
-  let b;
-  let w = 50;
 
   equal(mix('fff', '#fff'), null, 'missing token fff');
   equal(mix('##fff', '#fff'), null, 'double token ##fff');
@@ -89,7 +86,8 @@ tape('hex', (t) => {
       hsla: [4, 100, 57, 0.88],
       hex: '#ff3224',
       hexa: '#ff3224e0'
-    }
+    },
+    '#ff6347 -> hsla(360 100% 50% / 0.8) : 40'
   );
 
   end();
