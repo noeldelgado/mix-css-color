@@ -13,9 +13,7 @@
     "test": "tape -r esm test/*.js | tap-spec",
     "build": "rollup -c",
     "watch": "onchange dist/index.cjs.js test/*.js -- npm test",
-    "prepublishOnly": "npm-run-all prepublishOnly:*",
-    "prepublishOnly:test": "npm test",
-    "prepublishOnly:build": "npm run build"
+    "prepublishOnly": "npm run build && npm run test"
   },
   "keywords": [
     "mix",
