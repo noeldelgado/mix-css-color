@@ -2,17 +2,17 @@
   "name": "mix-css-color",
   "version": "0.1.1",
   "description": "Mix two colors together in variable proportion. Opacity is included in the calculations.",
-  "main": "lib/index.cjs.js",
-  "module": "lib/index.esm.js",
-  "browser": "lib/index.umd.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
   "files": [
-    "lib"
+    "dist"
   ],
   "scripts": {
     "dev": "rollup -c -w",
     "test": "tape -r esm test/*.js | tap-spec",
     "build": "rollup -c",
-    "watch": "onchange lib/index.cjs.js test/*.js -- npm test",
+    "watch": "onchange dist/index.cjs.js test/*.js -- npm test",
     "prepublishOnly": "npm-run-all prepublishOnly:*",
     "prepublishOnly:test": "npm test",
     "prepublishOnly:build": "npm run build"
