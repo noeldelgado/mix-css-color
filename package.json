@@ -9,10 +9,11 @@
     "lib"
   ],
   "scripts": {
-    "build": "rollup -c",
     "dev": "rollup -c -w",
     "test": "tape -r esm test/*.js | tap-spec",
-    "watch": "onchange lib/index.cjs.js test/*.js -- npm test"
+    "build": "rollup -c",
+    "watch": "onchange lib/index.cjs.js test/*.js -- npm test",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "mix",
