@@ -34,6 +34,50 @@ tape('keywords', (t) => {
   );
 
   deepEqual(
+    mix('tomato', 'cyan', 100),
+    {
+      rgba: [255, 99, 71, 1],
+      hsla: [9, 100, 64, 1],
+      hex: '#ff6347',
+      hexa: '#ff6347ff'
+    },
+    'tomato -> cyan : 100'
+  );
+
+  deepEqual(
+    mix('tomato', 'cyan', 200),
+    {
+      rgba: [255, 99, 71, 1],
+      hsla: [9, 100, 64, 1],
+      hex: '#ff6347',
+      hexa: '#ff6347ff'
+    },
+    'tomato -> cyan : 200 (clipped to 100)'
+  );
+
+  deepEqual(
+    mix('tomato', 'cyan', 0),
+    {
+      rgba: [0, 255, 255, 1],
+      hsla: [180, 100, 50, 1],
+      hex: '#00ffff',
+      hexa: '#00ffffff'
+    },
+    'tomato -> cyan : 0'
+  );
+
+  deepEqual(
+    mix('tomato', 'cyan', -100),
+    {
+      rgba: [0, 255, 255, 1],
+      hsla: [180, 100, 50, 1],
+      hex: '#00ffff',
+      hexa: '#00ffffff'
+    },
+    'tomato -> cyan : -100 (clipped to 0)'
+  );
+
+  deepEqual(
     mix('tomato', '#0099ff80', 42),
     {
       rgba: [174, 116, 129, 0.71113725],

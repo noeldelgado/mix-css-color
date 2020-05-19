@@ -36,6 +36,50 @@ tape('hex', (t) => {
   );
 
   deepEqual(
+    mix('#ff6347', '#0ff', 100),
+    {
+      rgba: [255, 99, 71, 1],
+      hsla: [9, 100, 64, 1],
+      hex: '#ff6347',
+      hexa: '#ff6347ff'
+    },
+    '#ff6347 -> #0ff : 100'
+  );
+
+  deepEqual(
+    mix('#ff6347', '#0ff', 200),
+    {
+      rgba: [255, 99, 71, 1],
+      hsla: [9, 100, 64, 1],
+      hex: '#ff6347',
+      hexa: '#ff6347ff'
+    },
+    '#ff6347 -> #0ff : 200 (clipped to 100)'
+  );
+
+  deepEqual(
+    mix('#ff6347', '#0ff', 0),
+    {
+      rgba: [0, 255, 255, 1],
+      hsla: [180, 100, 50, 1],
+      hex: '#00ffff',
+      hexa: '#00ffffff'
+    },
+    '#ff6347 -> #0ff : 0'
+  );
+
+  deepEqual(
+    mix('#ff6347', '#0ff', -100),
+    {
+      rgba: [0, 255, 255, 1],
+      hsla: [180, 100, 50, 1],
+      hex: '#00ffff',
+      hexa: '#00ffffff'
+    },
+    '#ff6347 -> #0ff : -100 (clipped to 0)'
+  );
+
+  deepEqual(
     mix('#fff', '#f00'),
     {
       rgba: [255, 128, 128, 1],

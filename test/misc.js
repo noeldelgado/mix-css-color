@@ -2,7 +2,7 @@ import tape from 'tape';
 
 import mix from '..';
 
-tape.only('misc', (t) => {
+tape('misc', (t) => {
   const { equal, end } = t;
 
   equal(mix(), null);
