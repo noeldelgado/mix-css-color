@@ -6,6 +6,8 @@
 
 Mix two colors together in variable proportion. Opacity is included in the calculations.
 
+_Output should be similar to the `less`/`sass` `mix()` function._
+
 ### Supports
 * \<color value\>
 	* Hexadecimal RGB value: #RGB #RRGGBB
@@ -57,6 +59,12 @@ mix('rgba(100% 255 100% / 0)') // error: mixed percetange with integer
 //> null
 ```
 See [tests](https://github.com/noeldelgado/mix-css-color/tree/master/test) for more cases.
+
+## API
+### mix(color1:string, color2: string, [percentage: number=50])
+- @param color1 - CSS string
+- @param color2 - CSS string
+- @param [percentage=50] - a number within 0 and 100
 
 ## Dev
 ```sh
