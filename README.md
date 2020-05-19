@@ -48,20 +48,10 @@ Or as a `<script>` tag from a CDN as `mixCssColor`:
 import mix from 'mix-css-color'
 
 mix('rgb(255 255 255 / 1)', 'red') // default 50% mix
-/* {	rgba: [255, 128, 128, 1],
-		hsla: [0, 100, 75, 1],
-		hex: '#ff8080',
-		hexa: '#ff8080ff' }
-*/
+//> {rgba: [255, 128, 128, 1], hsla: [0, 100, 75, 1], hex: '#ff8080', hexa: '#ff8080ff' }
 
 mix('black', 'rgba(255, 0, 0, 0.22)', 22) // 22% mix
-/* {
-    rgba: [78, 0, 0, 0.3916],
-    hsla: [0, 100, 15, 0.3916],
-    hex: '#4e0000',
-    hexa: '#4e000064'
-  }
-*/
+//> { rgba: [78, 0, 0, 0.3916], hsla: [0, 100, 15, 0.3916], hex: '#4e0000', hexa: '#4e000064' }
   
 mix('rgba(100% 255 100% / 0)') // error: mixed percetange with integer
 //> null
