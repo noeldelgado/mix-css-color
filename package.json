@@ -1,6 +1,6 @@
 {
   "name": "mix-css-color",
-  "version": "1.0.0-beta.0",
+  "version": "0.1.0",
   "description": "Mix two colors together in variable proportion. Opacity is included in the calculations.",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
