@@ -2,7 +2,7 @@
 [![npm-image](https://img.shields.io/npm/v/mix-css-color.svg)](https://www.npmjs.com/package/mix-css-color)
 ![license-image](https://img.shields.io/npm/l/mix-css-color.svg)
 [![Known Vulnerabilities](https://snyk.io/test/npm/mix-css-color/badge.svg)](https://snyk.io/test/npm/mix-css-color)
-![](https://img.badgesize.io/noeldelgado/mix-css-color/master/lib/index.esm.js.svg?compression=gzip)
+![](https://img.badgesize.io/noeldelgado/mix-css-color/master/index.js.svg?compression=gzip)
 
 Mix two colors together in variable proportion. Opacity is included in the calculations.
 
