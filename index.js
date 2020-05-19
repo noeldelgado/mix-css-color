@@ -28,7 +28,7 @@ export default function mix(color1, color2, percentage = 50) {
 
   if (!c1 || !c2) return null;
 
-  const p = percentage / 100.0;
+  const p = Math.min(Math.max(0, percentage), 100) / 100.0;
   const w = p * 2 - 1;
   const a = c1.alpha - c2.alpha;
   const w1 = ((w * a === -1 ? w : (w + a) / (1 + w * a)) + 1) / 2.0;
