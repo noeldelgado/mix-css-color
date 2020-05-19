@@ -10,7 +10,7 @@
 - unpkg CDN [98637ed](https://github.com/noeldelgado/mix-css-color/commit/98637edcc53c05f37e945527f912ce42606d5416)
 - jsDelivr CDN [132cfb9](https://github.com/noeldelgado/mix-css-color/commit/132cfb9f572bebe9aa527a34b7ec43f823da1d9d)
 - related projects [37be7d5](https://github.com/noeldelgado/mix-css-color/commit/37be7d516a6e86eed409c6aa5a93b11a11bc8174)
-- add CHANGELOG
+- CHANGELOG [77bbe53](https://github.com/noeldelgado/mix-css-color/commit/77bbe538a232cd5d2b3f149cedae922a6af1222b)
 
 ### Changed
 - parse-css-color@0.1.2 [5a0937e](https://github.com/noeldelgado/mix-css-color/commit/5a0937e6558f90457189882bfaddf144c10b6586)
