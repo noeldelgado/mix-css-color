@@ -37,6 +37,12 @@ Or as a `<script>` tag from a CDN as `mixCssColor`:
 <script src="https://unpkg.com/mix-css-color"></script>
 ```
 
+**jsDelivr CDN**
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/mix-css-color"></script>
+```
+
 ## Usage
 ```js
 import mix from 'mix-css-color'
