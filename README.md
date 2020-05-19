@@ -22,8 +22,19 @@ Mix two colors together in variable proportion. Opacity is included in the calcu
 * inherit
 
 ## Installation
+
+**NPM**
+
 ```sh
 npm i mix-css-color
+```
+
+Or as a `<script>` tag from a CDN as `mixCssColor`:
+
+**Unpkg CDN**
+
+```html
+<script src="https://unpkg.com/mix-css-color"></script>
 ```
 
 ## Usage
