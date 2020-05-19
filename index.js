@@ -11,7 +11,7 @@ import rgb2hsl from 'pure-color/convert/rgb2hsl';
 
 function parseColor(color) {
   const res = parse(color);
-  if (!res) throw new Error(`cannot parse color from “${color}”`);
+  if (res === null) return null;
   if (res.type === 'hsl') res.values = hsl2rgb(res.values);
   return res;
 }
@@ -25,6 +25,8 @@ function parseColor(color) {
 export default function mix(color1, color2, percentage = 50) {
   const c1 = parseColor(color1);
   const c2 = parseColor(color2);
+
+  if (!c1 || !c2) return null;
 
   const p = percentage / 100.0;
   const w = p * 2 - 1;
