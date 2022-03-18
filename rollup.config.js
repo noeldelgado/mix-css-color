@@ -3,6 +3,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import buble from '@rollup/plugin-buble';
 import replace from '@rollup/plugin-replace';
 import { terser } from 'rollup-plugin-terser';
+import copy from 'rollup-plugin-copy';
 
 import pkg from './package.json';
 
@@ -14,7 +15,21 @@ export default [
       format: 'umd',
       name: 'mixCssColor'
     },
-    plugins: [resolve(), commonjs(), buble(), replace({ __VERSION__: `v${pkg.version}` }), terser()]
+    plugins: [
+      resolve(),
+      commonjs(),
+      buble(),
+      replace({ __VERSION__: `v${pkg.version}` }),
+      terser(),
+      copy({
+        targets: [
+          {
+            src: 'index.d.ts',
+            dest: 'dist',
+          }
+        ]
+      })
+    ]
   },
   {
     input: 'index.js',

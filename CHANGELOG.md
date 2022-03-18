@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Added
+- Type definitions
+
 ## [0.1.1] - [#1](https://github.com/noeldelgado/mix-css-color/pull/1) - 2020-05-19
 ### Added
 - more tests
