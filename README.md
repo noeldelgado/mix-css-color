@@ -1,8 +1,9 @@
 # mix-css-color
-[![npm-image](https://img.shields.io/npm/v/mix-css-color.svg)](https://www.npmjs.com/package/mix-css-color)
-![license-image](https://img.shields.io/npm/l/mix-css-color.svg)
-[![Known Vulnerabilities](https://snyk.io/test/npm/mix-css-color/badge.svg)](https://snyk.io/test/npm/mix-css-color)
+[![npm version][npm-img]][npm-url]
 ![](https://img.badgesize.io/noeldelgado/mix-css-color/master/index.js.svg?compression=gzip)
+[![License][license-img]][license-url]
+[![Known Vulnerabilities][snyk-img]][snyk-url]
+[![Libraries.io dependency status for latest release][librariesio-img]][librariesio-url]
 
 Mix two colors together in variable proportion. Opacity is included in the calculations.
 
@@ -79,3 +80,12 @@ npm run dev   # watch for changes and rebuild
 
 ## License
 MIT © [Noel Delgado](http://pixelia.me/)
+
+[npm-img]: https://img.shields.io/npm/v/mix-css-color.svg?logo=npm&label=NPM
+[license-img]: https://img.shields.io/npm/l/mix-css-color
+[license-url]: https://github.com/noeldelgado/mix-css-color/blob/master/LICENSE
+[npm-url]: https://www.npmjs.com/package/mix-css-color
+[snyk-img]: https://snyk.io/test/npm/mix-css-color/badge.svg
+[snyk-url]: https://snyk.io/test/npm/mix-css-color
+[librariesio-img]: https://img.shields.io/librariesio/release/npm/mix-css-color.svg?logo=librariesdotio
+[librariesio-url]: https://libraries.io/npm/mix-css-color
