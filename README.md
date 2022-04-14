@@ -5,6 +5,8 @@
 [![codecov][codecov-image]][codecov-url]
 [![Known Vulnerabilities][snyk-img]][snyk-url]
 [![Libraries.io dependency status for latest release][librariesio-img]][librariesio-url]
+[![Total alerts][lgtm-image]][lgtm-url]
+[![Language grade: JavaScript][lgtm-grade-image]][lgtm-grade-url]
 
 Mix two colors together in variable proportion. Opacity is included in the calculations.
 
@@ -92,3 +94,7 @@ MIT © [Noel Delgado](http://pixelia.me/)
 [snyk-url]: https://snyk.io/test/npm/mix-css-color
 [librariesio-img]: https://img.shields.io/librariesio/release/npm/mix-css-color.svg?logo=librariesdotio
 [librariesio-url]: https://libraries.io/npm/mix-css-color
+[lgtm-image]: https://img.shields.io/lgtm/alerts/g/noeldelgado/mix-css-color.svg?logo=lgtm&logoWidth=18
+[lgtm-url]: https://lgtm.com/projects/g/noeldelgado/mix-css-color/alerts/
+[lgtm-grade-image]: https://img.shields.io/lgtm/grade/javascript/g/noeldelgado/mix-css-color.svg?logo=lgtm&logoWidth=18
+[lgtm-grade-url]: https://lgtm.com/projects/g/noeldelgado/mix-css-color/context:javascript
