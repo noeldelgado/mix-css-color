@@ -2,6 +2,7 @@
 [![npm version][npm-img]][npm-url]
 ![](https://img.badgesize.io/noeldelgado/mix-css-color/master/index.js.svg?compression=gzip)
 [![License][license-img]][license-url]
+[![codecov][codecov-image]][codecov-url]
 [![Known Vulnerabilities][snyk-img]][snyk-url]
 [![Libraries.io dependency status for latest release][librariesio-img]][librariesio-url]
 
@@ -55,7 +56,7 @@ mix('rgb(255 255 255 / 1)', 'red') // default 50% mix
 
 mix('black', 'rgba(255, 0, 0, 0.22)', 22) // 22% mix
 //> { rgba: [78, 0, 0, 0.3916], hsla: [0, 100, 15, 0.3916], hex: '#4e0000', hexa: '#4e000064' }
-  
+
 mix('rgba(100% 255 100% / 0)') // error: mixed percetange with integer
 //> null
 ```
@@ -84,6 +85,8 @@ MIT © [Noel Delgado](http://pixelia.me/)
 [npm-img]: https://img.shields.io/npm/v/mix-css-color.svg?logo=npm&label=NPM
 [license-img]: https://img.shields.io/npm/l/mix-css-color
 [license-url]: https://github.com/noeldelgado/mix-css-color/blob/master/LICENSE
+[codecov-image]: https://codecov.io/gh/noeldelgado/mix-css-color/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/noeldelgado/mix-css-color
 [npm-url]: https://www.npmjs.com/package/mix-css-color
 [snyk-img]: https://snyk.io/test/npm/mix-css-color/badge.svg
 [snyk-url]: https://snyk.io/test/npm/mix-css-color
