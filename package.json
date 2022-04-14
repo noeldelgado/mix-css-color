@@ -14,6 +14,7 @@
     "test": "tape -r esm test/*.js | tap-spec",
     "build": "rollup -c",
     "watch": "onchange dist/index.cjs.js test/*.js -- npm test",
+    "coverage": "nyc report --reporter=lcov",
     "prepublishOnly": "npm run build && npm run test"
   },
   "keywords": [
